@@ -11,14 +11,29 @@ namespace DemoTestingCsharp
         // after execute exe argumets 
         static void Main(string[] args)
         {
-            
-            Console.WriteLine("ТИ КОЙ СИ ? (Напиши си името)");
+             
+            Console.WriteLine("Whats your name");
             // set string to 'name' and later read args 
             string name = Console.ReadLine();
-            // print string name 
-            Console.WriteLine("Здравей, " + name);
-            Console.WriteLine("ти спечели борбата с конзолката");
+            // numbers second method
+
+            Console.WriteLine("hello, " + name);
+
+            Console.WriteLine("how old are you?");
+            int AgeOld = int.Parse(Console.ReadLine());
+
+
+            if (AgeOld > 50)
+            {
+
+                Console.WriteLine("too old grandpa");
+            }
+            else
+            {
+                Console.WriteLine("its ok kiddo");
+            }
         }
     }
 }
 
+       
