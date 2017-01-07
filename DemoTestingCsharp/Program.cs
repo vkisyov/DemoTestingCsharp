@@ -8,7 +8,7 @@ namespace DemoTestingCsharp
 {
     class Program
     {
-        // argumets
+        // after execute exe argumets 
         static void Main(string[] args)
         {
             
